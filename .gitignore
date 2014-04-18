@@ -3,3 +3,13 @@
 
 # KDE directory preferences
 .directory
+
+# Generic
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+
+
+
