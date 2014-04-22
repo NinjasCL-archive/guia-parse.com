@@ -11,6 +11,7 @@ Existen cuatro formas de construir conexiones en Parse:
 > Para crear exitosamente una relación, ambos objetos deben existir previamente en la base de datos.
 
 **Punteros**
+
 Un puntero es una asociación entre un objeto y otro. Se utiliza normalmente para relaciones simples uno a uno.
 
 Ejemplo:
@@ -39,6 +40,7 @@ Un animal pertenece a una familia biológica
 
 
 **Arreglos**
+
 Una asociación de tipo arreglo es ideal para relaciones uno a muchos o muchos a muchos pequeñas, menores a 100 objetos.
 
 Ejemplo:
@@ -79,11 +81,13 @@ Ejemplo:
 ```
 
 **Relations**
+
 Una Relación es ideal para asociaciones uno a muchos y muchos a muchos. La diferencia con los arreglos es que soportan cantidades mayores de objetos y para acceder a sus datos se necesita hacer un Query (Consulta).
 
 **ver relaciones.js**
 
 **Tablas Join**
+
 Básicamente es una tabla creada específicamente para guardar una relación entre objetos que necesite de mayores detalles. Como es una tabla normal, todas las formas de hacer consultas se aplican.
 
 Ejemplo:
@@ -107,7 +111,7 @@ compra.save().then(function(){
 });
 ```
 
-
+## Más Información
 * [Relaciones en JavaScript](https://www.parse.com/docs/js_guide#objects-pointers)
 * [Guía de Relaciones](https://www.parse.com/docs/relations_guide)
 * [Artículo 1](http://blog.parse.com/2012/05/17/new-many-to-many/)
