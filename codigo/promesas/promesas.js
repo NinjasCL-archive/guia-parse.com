@@ -38,8 +38,11 @@ promise.then(function(){
 		});
 	});
 	
-	// Devuelvo una nueva promesa
+	// Devuelvo la promesa interna
+	// que contiene todas las promesas save() anteriores
+	
 	return innerPromise;
+	
 }).then(function(){
 	// Éste código se ejecuta luego de guardar todos los nombres
 	console.log('Todo Creado');
