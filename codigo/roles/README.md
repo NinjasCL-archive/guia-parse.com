@@ -2,7 +2,7 @@
 Los roles son una forma de agrupar usuarios y darles permisos utilizando ACL.
 
 ## Código de Ejemplo
-*roles.js* contiene el código de codecloud para obtener un rol asociado al usuario actual.
+*roles.js* contiene el código de codecloud para obtener un rol asociado al usuario actual. Pará que éste código entre correctamente el rol, el usuario debe haber hecho Login exitosamente.
 
 ## Links
 
