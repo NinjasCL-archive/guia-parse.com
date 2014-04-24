@@ -7,3 +7,7 @@
 **Relaciones**
 
  > Da un ejemplo de como hacer relaciones en JavaScript 
+ 
+ **Roles**
+ 
+ > Da un ejemplo de como obtener un rol asociado a un usuario
