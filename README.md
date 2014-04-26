@@ -1,2 +1,0 @@
-# Importando Datos
-Para importar datos hay diferentes formas. La que se mostrará a continuación es la usada para la aplicación de ejemplo la cual contiene los datos de CodeCamp 2014 sus temas y expositores.
